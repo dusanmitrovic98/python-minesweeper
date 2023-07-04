@@ -41,3 +41,4 @@ class Minesweeper:
             return
 
         mines = self.get_adjacent_mines(x, y)
+        if mines > 0:
