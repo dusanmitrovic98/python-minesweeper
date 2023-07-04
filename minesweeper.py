@@ -58,3 +58,4 @@ class Minesweeper:
 
     def print_board(self, reveal=False):
         print('   ' + ' '.join(str(i) for i in range(self.width)))
+        print('  +' + '-' * (2 * self.width - 1) + '+')
