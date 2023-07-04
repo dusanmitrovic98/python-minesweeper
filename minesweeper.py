@@ -70,3 +70,4 @@ class Minesweeper:
                     row += f' {cell}'
 
             row += ' |'
+            print(row)
