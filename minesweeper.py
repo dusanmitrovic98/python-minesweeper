@@ -79,3 +79,4 @@ class Minesweeper:
         game_over = False
 
         while not game_over:
+            self.print_board()
