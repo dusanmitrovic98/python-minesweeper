@@ -14,3 +14,4 @@ class Minesweeper:
             x = random.randint(0, self.width - 1)
             y = random.randint(0, self.height - 1)
             if self.board[y][x] != 'X':
+                self.board[y][x] = 'X'
