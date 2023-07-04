@@ -34,3 +34,4 @@ class Minesweeper:
 
     def reveal_cell(self, x, y):
         if self.board[y][x] != ' ':
+            return
