@@ -15,3 +15,4 @@ class Minesweeper:
             y = random.randint(0, self.height - 1)
             if self.board[y][x] != 'X':
                 self.board[y][x] = 'X'
+                self.mine_locations.append((x, y))
