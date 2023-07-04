@@ -55,3 +55,4 @@ class Minesweeper:
                         y + j >= 0 and y + j < self.height
                     ):
                         self.reveal_cell(x + i, y + j)
+
