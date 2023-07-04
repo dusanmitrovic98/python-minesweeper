@@ -81,3 +81,4 @@ class Minesweeper:
         while not game_over:
             self.print_board()
 
+            x = int(input("Enter the x coordinate: "))
