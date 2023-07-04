@@ -89,3 +89,4 @@ class Minesweeper:
                 self.print_board(reveal=True)
                 game_over = True
             else:
+                self.reveal_cell(x, y)
