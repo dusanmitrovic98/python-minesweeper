@@ -32,3 +32,4 @@ class Minesweeper:
                     count += 1
         return count
 
+    def reveal_cell(self, x, y):
