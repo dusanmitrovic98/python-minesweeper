@@ -71,3 +71,4 @@ class Minesweeper:
 
             row += ' |'
             print(row)
+
