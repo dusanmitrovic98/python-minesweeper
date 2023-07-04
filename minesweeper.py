@@ -72,3 +72,4 @@ class Minesweeper:
             row += ' |'
             print(row)
 
+        print('  +' + '-' * (2 * self.width - 1) + '+')
