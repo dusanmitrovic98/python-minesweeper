@@ -25,3 +25,4 @@ class Minesweeper:
                 if i == 0 and j == 0:
                     continue
                 if (
+                    x + i >= 0 and x + i < self.width and
