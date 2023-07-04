@@ -65,3 +65,4 @@ class Minesweeper:
             for j in range(self.width):
                 cell = self.board[i][j]
                 if cell == 'X' and not reveal:
+                    row += '  '
