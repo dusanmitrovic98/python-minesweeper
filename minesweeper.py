@@ -53,3 +53,4 @@ class Minesweeper:
                     if (
                         x + i >= 0 and x + i < self.width and
                         y + j >= 0 and y + j < self.height
+                    ):
