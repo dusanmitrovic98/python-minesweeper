@@ -19,3 +19,4 @@ class Minesweeper:
                 mines += 1
 
     def get_adjacent_mines(self, x, y):
+        count = 0
