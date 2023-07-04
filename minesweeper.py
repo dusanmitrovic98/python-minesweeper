@@ -29,3 +29,4 @@ class Minesweeper:
                     y + j >= 0 and y + j < self.height and
                     self.board[y + j][x + i] == 'X'
                 ):
+                    count += 1
