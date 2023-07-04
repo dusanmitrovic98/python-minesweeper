@@ -76,3 +76,4 @@ class Minesweeper:
 
     def play(self):
         self.place_mines()
+        game_over = False
