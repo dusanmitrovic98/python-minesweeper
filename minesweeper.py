@@ -78,3 +78,4 @@ class Minesweeper:
         self.place_mines()
         game_over = False
 
+        while not game_over:
