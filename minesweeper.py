@@ -85,3 +85,4 @@ class Minesweeper:
             y = int(input("Enter the y coordinate: "))
 
             if (x, y) in self.mine_locations:
+                print("Game over! You hit a mine.")
