@@ -9,3 +9,4 @@ class Minesweeper:
         self.mine_locations = []
 
     def place_mines(self):
+        mines = 0
