@@ -10,3 +10,4 @@ class Minesweeper:
 
     def place_mines(self):
         mines = 0
+        while mines < self.num_mines:
