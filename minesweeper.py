@@ -88,3 +88,4 @@ class Minesweeper:
                 print("Game over! You hit a mine.")
                 self.print_board(reveal=True)
                 game_over = True
+            else:
