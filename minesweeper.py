@@ -18,3 +18,4 @@ class Minesweeper:
                 self.mine_locations.append((x, y))
                 mines += 1
 
+    def get_adjacent_mines(self, x, y):
