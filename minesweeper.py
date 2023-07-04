@@ -24,3 +24,4 @@ class Minesweeper:
             for j in range(-1, 2):
                 if i == 0 and j == 0:
                     continue
+                if (
