@@ -30,3 +30,4 @@ class Minesweeper:
                     self.board[y + j][x + i] == 'X'
                 ):
                     count += 1
+        return count
