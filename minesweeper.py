@@ -63,3 +63,4 @@ class Minesweeper:
         for i in range(self.height):
             row = str(i) + ' |'
             for j in range(self.width):
+                cell = self.board[i][j]
