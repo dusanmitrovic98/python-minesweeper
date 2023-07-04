@@ -16,3 +16,4 @@ class Minesweeper:
             if self.board[y][x] != 'X':
                 self.board[y][x] = 'X'
                 self.mine_locations.append((x, y))
+                mines += 1
