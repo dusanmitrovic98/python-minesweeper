@@ -86,3 +86,4 @@ class Minesweeper:
 
             if (x, y) in self.mine_locations:
                 print("Game over! You hit a mine.")
+                self.print_board(reveal=True)
