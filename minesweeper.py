@@ -61,3 +61,4 @@ class Minesweeper:
         print('  +' + '-' * (2 * self.width - 1) + '+')
 
         for i in range(self.height):
+            row = str(i) + ' |'
