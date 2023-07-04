@@ -91,3 +91,4 @@ class Minesweeper:
             else:
                 self.reveal_cell(x, y)
 
+                if all(
