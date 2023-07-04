@@ -47,3 +47,4 @@ class Minesweeper:
             self.board[y][x] = ' '
 
             for i in range(-1, 2):
+                for j in range(-1, 2):
