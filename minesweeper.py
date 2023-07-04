@@ -1,2 +1,3 @@
 import random
 
+class Minesweeper:
