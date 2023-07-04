@@ -38,3 +38,4 @@ class Minesweeper:
 
         if (x, y) in self.mine_locations:
             self.board[y][x] = 'X'
+            return
