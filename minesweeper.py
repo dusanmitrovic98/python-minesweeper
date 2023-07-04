@@ -92,3 +92,4 @@ class Minesweeper:
                 self.reveal_cell(x, y)
 
                 if all(
+                    self.board[y][x] != ' ' or
