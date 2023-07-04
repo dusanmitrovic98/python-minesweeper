@@ -43,3 +43,4 @@ class Minesweeper:
         mines = self.get_adjacent_mines(x, y)
         if mines > 0:
             self.board[y][x] = str(mines)
+        else:
