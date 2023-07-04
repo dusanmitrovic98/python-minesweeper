@@ -8,3 +8,4 @@ class Minesweeper:
         self.board = [[' ' for _ in range(width)] for _ in range(height)]
         self.mine_locations = []
 
+    def place_mines(self):
