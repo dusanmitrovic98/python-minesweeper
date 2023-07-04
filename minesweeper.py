@@ -22,3 +22,4 @@ class Minesweeper:
         count = 0
         for i in range(-1, 2):
             for j in range(-1, 2):
+                if i == 0 and j == 0:
