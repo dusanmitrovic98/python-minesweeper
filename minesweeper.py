@@ -94,3 +94,4 @@ class Minesweeper:
                 if all(
                     self.board[y][x] != ' ' or
                     (x, y) in self.mine_locations
+                    for y in range(self.height)
