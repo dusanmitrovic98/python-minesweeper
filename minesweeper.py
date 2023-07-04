@@ -21,3 +21,4 @@ class Minesweeper:
     def get_adjacent_mines(self, x, y):
         count = 0
         for i in range(-1, 2):
+            for j in range(-1, 2):
