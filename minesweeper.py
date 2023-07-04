@@ -40,3 +40,4 @@ class Minesweeper:
             self.board[y][x] = 'X'
             return
 
+        mines = self.get_adjacent_mines(x, y)
