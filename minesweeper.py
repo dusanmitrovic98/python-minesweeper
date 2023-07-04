@@ -68,3 +68,4 @@ class Minesweeper:
                     row += '  '
                 else:
                     row += f' {cell}'
+
