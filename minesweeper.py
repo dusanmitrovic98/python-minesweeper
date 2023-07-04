@@ -44,3 +44,4 @@ class Minesweeper:
         if mines > 0:
             self.board[y][x] = str(mines)
         else:
+            self.board[y][x] = ' '
