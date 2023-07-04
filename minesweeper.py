@@ -56,3 +56,4 @@ class Minesweeper:
                     ):
                         self.reveal_cell(x + i, y + j)
 
+    def print_board(self, reveal=False):
