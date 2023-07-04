@@ -7,3 +7,4 @@ class Minesweeper:
         self.num_mines = num_mines
         self.board = [[' ' for _ in range(width)] for _ in range(height)]
         self.mine_locations = []
+
