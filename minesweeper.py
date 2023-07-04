@@ -36,3 +36,4 @@ class Minesweeper:
         if self.board[y][x] != ' ':
             return
 
+        if (x, y) in self.mine_locations:
