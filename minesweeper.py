@@ -67,3 +67,4 @@ class Minesweeper:
                 if cell == 'X' and not reveal:
                     row += '  '
                 else:
+                    row += f' {cell}'
