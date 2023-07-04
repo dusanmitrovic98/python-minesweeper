@@ -45,3 +45,4 @@ class Minesweeper:
             self.board[y][x] = str(mines)
         else:
             self.board[y][x] = ' '
+
