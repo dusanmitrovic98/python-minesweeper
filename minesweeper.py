@@ -90,3 +90,4 @@ class Minesweeper:
                 game_over = True
             else:
                 self.reveal_cell(x, y)
+
