@@ -95,3 +95,11 @@ class Minesweeper:
                     self.board[y][x] != ' ' or
                     (x, y) in self.mine_locations
                     for y in range(self.height)
+                    for x in range(self.width)
+                ):
+                    print("Congratulations! You won!")
+                    self.print_board(reveal=True)
+                    game_over = True
+
+game = Minesweeper(8, 8, 10)
+game.play()
