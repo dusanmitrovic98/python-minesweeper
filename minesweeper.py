@@ -5,3 +5,4 @@ class Minesweeper:
         self.width = width
         self.height = height
         self.num_mines = num_mines
+        self.board = [[' ' for _ in range(width)] for _ in range(height)]
