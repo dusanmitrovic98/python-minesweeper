@@ -75,3 +75,4 @@ class Minesweeper:
         print('  +' + '-' * (2 * self.width - 1) + '+')
 
     def play(self):
+        self.place_mines()
